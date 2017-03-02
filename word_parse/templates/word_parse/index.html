@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{ a }}
+<br>
+{{ a }}
+
+<form action="index" method="post">
+{% csrf_token %}
+
+    <input type="text" name="choice" id="choice" />
+    <label> "Userr text"</label>
+    <br/>
+
+<input type="submit" value="Hadle" />
+</form>
+
+</body>
+</html>
